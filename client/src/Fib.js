@@ -31,7 +31,7 @@ class Fib extends Component {
     await axios.post('/api/values', {
       index: this.state.index,
     });
-    this.setState({ index: '4' });
+    this.setState({ index: '' });
   };
 
   renderSeenIndexes() {
